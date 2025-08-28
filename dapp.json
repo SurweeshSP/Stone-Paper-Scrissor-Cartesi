@@ -1,0 +1,5 @@
+{
+  "fs": {
+    "files": ["main.py","util.py", "challenge.py", "entrypoint.sh"]
+  }
+}
