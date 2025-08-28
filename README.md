@@ -11,9 +11,9 @@ It demonstrates how classic games can be implemented as **trustless decentralize
 It allows developers to build **scalable dApps** using familiar tools (like Python, C++, TensorFlow, etc.) instead of being limited to smart contracts in Solidity.  
 
 Key features:
-- ✅ **Scalability** – Heavy computation happens off-chain inside the Cartesi Machine.  
-- ✅ **Familiar Languages** – Build dApps using Python or other languages instead of Solidity.  
-- ✅ **Decentralization** – Results are anchored on the blockchain, ensuring security and fairness.  
+- **Scalability** – Heavy computation happens off-chain inside the Cartesi Machine.  
+- **Familiar Languages** – Build dApps using Python or other languages instead of Solidity.  
+- **Decentralization** – Results are anchored on the blockchain, ensuring security and fairness.  
 
 ---
 
@@ -45,9 +45,17 @@ Key features:
 
 ---
 
+# Refernce Git
+https://github.com/Mugen-Builders
+
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repository
-```bash
+```wsl 
 git clone https://github.com/SurweeshSP/Stone-Paper-Scrissor-Cartesi.git
 cd Stone-Paper-Scrissor-Cartesi
+
+cartesi build
+cartesi run
+
+yarn start input send --payload '{"method":"create_challenge"}' from the frontEnd Consolge which is optional !!!
